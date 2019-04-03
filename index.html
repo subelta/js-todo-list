@@ -2,19 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Todo list</title>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1 id='list-name' contenteditable="true">
-            My todo list
-        </h1>
-        <p id="customise-note">(You can edit it)</p>
+    <header id="main-header">
+        <h1 id='heading'>JavaScript Todo App</h1>
     </header>
     <main>
-        <button id="add-todo">+</button>
+        <div class="todo-list">
+            <header class="list-header">
+                <h2 class="list-heading">
+                    Todo list 1
+                </h2>
+                <div class="add-todo">
+                    <input class="input-todo" type="text" placeholder="Add Todo">
+                    <button class="add-todo-btn">+</button>
+                </div> 
+            </header>
+            <ul>
+                <li>TAsk 1<span class="delete-item">X</span></li>
+                <li>TAsk 2<span class="delete-item">X</span></li>
+                <li>Task 3<span class="delete-item">X</span></li>
+                <li>Task 3<span class="delete-item">X</span></li>
+                <li>Task 3<span class="delete-item">X</span></li>
+                <li class="done">Task 4<span class="delete-item">X</span></li>
+            </ul>
+        </div>
     </main>
-    <footer>
+    <footer id="main-footer">
         <figure>
             <blockquote>
                 Anyone who has never made a mistake has never tried anything new
