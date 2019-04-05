@@ -45,6 +45,8 @@ body {
     border-radius: 3px;
     padding-left: 7px;
     outline: none;
+    font-family: 'Raleway', sans-serif;
+    color: #3e9b69;
 }
 
 button {
