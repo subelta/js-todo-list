@@ -47,6 +47,7 @@ body {
     outline: none;
     font-family: 'Raleway', sans-serif;
     color: #3e9b69;
+    font-size: 1.1rem;
 }
 
 button {
@@ -54,7 +55,7 @@ button {
 }
 
 .add-todo-btn {
-    vertical-align: middle;
+    vertical-align: top;
     width: 35px;
     height: 31px;
     border-radius: 5px;
@@ -109,6 +110,7 @@ li {
 .item-text {
     margin: 10px 0 0 30px;
     display: inline-block;
+    font-size: 1.1rem;
 }
 
 .delete-item {
