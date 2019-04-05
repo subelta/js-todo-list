@@ -4,4 +4,4 @@
 Current version [here](https://subelta.github.io/js-todo-list/index.html), while backend is being developed
 
 
-Currently custom scrollbar works only for Webkit and Blink based browsers 
+NOTE: Currently custom scrollbar works only for Webkit and Blink based browsers 
